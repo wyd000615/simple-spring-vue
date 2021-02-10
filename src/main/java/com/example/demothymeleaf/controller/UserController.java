@@ -14,4 +14,15 @@ public class UserController {
         String userById = userService.getUserById(2);
         return userById;
     }
+
+    /*
+    * 测试aop
+    * 打印日志
+    *
+    * */
+    @RequestMapping("/getUserLog")
+    public void getUserLog(){
+         userService.getUserLog();
+    }
+
 }
