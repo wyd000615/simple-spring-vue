@@ -3,9 +3,10 @@ package com.example.demothymeleaf.pojo;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class Book {
+public class Book implements Serializable {
     private Integer id;
     private String name;
     private String author;

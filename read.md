@@ -12,6 +12,8 @@ cors支持
 注册拦截器   
 整合servlet filter和listener
 配置aop
-
+链接mysql数据库 
+配置mybatis
+链接redis
 
 

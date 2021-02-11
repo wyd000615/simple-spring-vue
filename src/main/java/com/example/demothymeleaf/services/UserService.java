@@ -1,5 +1,6 @@
 package com.example.demothymeleaf.services;
 
+import com.example.demothymeleaf.pojo.User;
 import org.springframework.stereotype.Service;
 
 
@@ -10,4 +11,6 @@ public interface UserService {
     * 自测aop日志
     * */
     void getUserLog();
+
+    User queryUserById(Integer id);
 }
