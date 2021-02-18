@@ -1,7 +1,11 @@
 package com.example.demothymeleaf.dao;
 
 import com.example.demothymeleaf.pojo.User;
+import org.apache.ibatis.annotations.Mapper;
+import org.springframework.stereotype.Component;
 
+@Mapper
+@Component
 public interface UserDao {
     int deleteByPrimaryKey(Integer id);
 

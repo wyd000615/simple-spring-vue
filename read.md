@@ -15,5 +15,8 @@ cors支持
 链接mysql数据库 
 配置mybatis
 链接redis
+单元测试
+整合spring security  (简单实现，复制的没实现比如注解，角色权限排序，资源和角色动态组合)
 
-
+整合了shiro  但是没实现效果
+整合了quartz  schedule 
